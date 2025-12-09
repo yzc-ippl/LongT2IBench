@@ -2,7 +2,7 @@
     <a href="https://arxiv.org/pdf/%3CARXIV%20PAPER%20ID%3E"><img src="https://img.shields.io/badge/Arxiv-preprint-red"></a>
     <a href="https://welldky.github.io/LongT2IBench-Homepage/"><img src="https://img.shields.io/badge/Homepage-green"></a>
     <!-- <a href="https://huggingface.co/spaces/orpheus0429/FGResQ"><img src="https://img.shields.io/badge/?¤?%20Hugging%20Face-Spaces-blue"></a> -->
-    <a href='https://github.com/yzc-ippl/LongT2IBench/stargazers'><img src='https://img.shields.io/github/stars/sxfly99/FGResQ.svg?style=social'></a>
+    <a href='https://github.com/yzc-ippl/LongT2IBench/stargazers'><img src='https://img.shields.io/github/stars/yzc-ippl/LongT2IBench.svg?style=social'></a>
 
 </div>
 
