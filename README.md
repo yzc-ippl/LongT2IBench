@@ -25,7 +25,7 @@
 </div>
 
 <div align="center">
-<sup>#</sup>Corresponding author
+<sup>*</sup>Corresponding author
 </div>
 
 <div align="center">
