@@ -12,7 +12,7 @@
     <a href="https://github.com/yzc-ippl/" target="_blank">Zhichao Yang</a><sup>1</sup>,
     <a href="https://github.com/welldky" target="_blank">Tianjiao Gu</a><sup>1</sup>,
     <a href="https://github.com/satan-7" target="_blank">Jianjie Wang</a><sup>1</sup>,
-    <a href="https://github.com/satan-7" target="_blank">Jianjie Wang</a><sup>1</sup>,
+    <a href="https://github.com/Guapicat0" target="_blank">Feiyu Lin</a><sup>1</sup>,
     <a href="https://github.com/sxfly99" target="_blank">Xiangfei Sheng</a><sup>1</sup>,
     <a href="https://faculty.xidian.edu.cn/cpf/" target="_blank">Pengfei Chen</a><sup>1*</sup>,
     <a href="https://web.xidian.edu.cn/ldli/" target="_blank">Leida Li</a><sup>1,2*</sup>
