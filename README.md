@@ -62,7 +62,7 @@ pip install -r requirements.txt
 
 ##### Prepare Pre-trained Weights
 
-You can download the pre-trained model weights from the following link: [**(Baidu Netdisk)**](https://pan.baidu.com/s/1Ltj77l31hyBkn6nLtYctnQ?pwd=i8ug)
+You can download the pre-trained model weights of <strong>[LongT2IExpert]</strong> from the following link: [**(Baidu Netdisk)**](https://pan.baidu.com/s/1Ltj77l31hyBkn6nLtYctnQ?pwd=i8ug)
 
 Place the downloaded files in the `weights` directory.
 
@@ -72,7 +72,7 @@ Create the `weights` directory if it doesn't exist and place the files inside.
 
 ##### Prepare Datasets
 
-You can download the dataset from the following link: [**(Baidu Netdisk)**](https://pan.baidu.com/s/1Ln0eIJABmBxzqa-bDm-DOw?pwd=j6p6)
+You can download the dataset of <strong>[LongPrompt-3K]</strong> and <strong>[LongT2IBench-14K]</strong> from the following link: [**(Baidu Netdisk)**](https://pan.baidu.com/s/1Ln0eIJABmBxzqa-bDm-DOw?pwd=j6p6)
 
 Place the downloaded files in the `data` directory.
 
@@ -101,7 +101,7 @@ LongT2IBench/
 
 ## 3. Run Inference
 
-The `LongT2IBench` provides two main inference tasks: Long T2I Alignment Scoring and Long T2I Alignment Scoring.
+The `LongT2IExpert` provides two main inference tasks: Long T2I Alignment Scoring and Long T2I Alignment Interpreting.
 
 ##### Long T2I Alignment Scoring
 
@@ -109,7 +109,7 @@ The `LongT2IBench` provides two main inference tasks: Long T2I Alignment Scoring
 python test_score.py
 ```
 
-##### Long T2I Alignment Scoring
+##### Long T2I Alignment Interpreting
 
 ```
 python test_generation.py
