@@ -36,10 +36,10 @@
     <h2 style="border-bottom: 1px solid #eaecef; padding-bottom: 0.3em; margin-bottom: 1em;">News</h2>
     <ul style="list-style-type: none; padding-left: 0;">
         <li style="margin-bottom: 0.8em;">
-            <strong>[2025-12-09]</strong> The data and pre-trained models for LongT2IBench have been released.
+            <strong>[2025-12-09]</strong> The <font color="#0099ff">data and pre-trained models</font> for LongT2IBench have been released.
         </li>
         <li style="margin-bottom: 0.8em;">
-            <strong>[2025-11-08]</strong> Our paper, "LongT2IBench: A Benchmark for Evaluating Long Text-to-Image Generation with Graph-structured Annotations", has been accepted for an oral presentation at AAAI 2026!
+            <strong>[2025-11-08]</strong> Our paper, "LongT2IBench: A Benchmark for Evaluating Long Text-to-Image Generation with Graph-structured Annotations", has been accepted for an <font color="#0099ff">oral presentation at AAAI 2026</font>!
         </li>
     </ul>
 </div>
