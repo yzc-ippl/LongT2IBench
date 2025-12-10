@@ -99,7 +99,7 @@ LongT2IBench/
 |-- test_score.py
 ```
 
-## 3. Run Inference
+### 3. Run Inference
 
 The `LongT2IExpert` provides two main inference tasks: Long T2I Alignment Scoring and Long T2I Alignment Interpreting.
 
