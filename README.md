@@ -1,5 +1,5 @@
 <div align="center">
-    <a href="https://arxiv.org/pdf/%3CARXIV%20PAPER%20ID%3E"><img src="https://img.shields.io/badge/Arxiv-preprint-red"></a>
+    <a href="https://arxiv.org/abs/2512.09271"><img src="https://img.shields.io/badge/Arxiv-preprint-red"></a>
     <a href="https://welldky.github.io/LongT2IBench-Homepage/"><img src="https://img.shields.io/badge/Homepage-green"></a>
     <!-- <a href="https://huggingface.co/spaces/orpheus0429/FGResQ"><img src="https://img.shields.io/badge/?¤?%20Hugging%20Face-Spaces-blue"></a> -->
     <a href='https://github.com/yzc-ippl/LongT2IBench/stargazers'><img src='https://img.shields.io/github/stars/yzc-ippl/LongT2IBench.svg?style=social'></a>
@@ -120,5 +120,13 @@ python test_generation.py
 If you find this work is useful, pleaes cite our paper!
 
 ```bibtex
-
+@misc{yang2025longt2ibenchbenchmarkevaluatinglong,
+      title={LongT2IBench: A Benchmark for Evaluating Long Text-to-Image Generation with Graph-structured Annotations}, 
+      author={Zhichao Yang and Tianjiao Gu and Jianjie Wang and Feiyu Lin and Xiangfei Sheng and Pengfei Chen and Leida Li},
+      year={2025},
+      eprint={2512.09271},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2512.09271}, 
+}
 ```
