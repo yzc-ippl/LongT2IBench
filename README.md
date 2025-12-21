@@ -36,6 +36,9 @@
     <h2 style="border-bottom: 1px solid #eaecef; padding-bottom: 0.3em; margin-bottom: 1em;">News</h2>
     <ul style="list-style-type: none; padding-left: 0;">
         <li style="margin-bottom: 0.8em;">
+            <strong>[2025-12-21]</strong> The training code has been released.
+        </li>
+        <li style="margin-bottom: 0.8em;">
             <strong>[2025-12-09]</strong> The data and pre-trained models have been released.
         </li>
         <li style="margin-bottom: 0.8em;">
@@ -84,6 +87,9 @@ LongT2IBench/
 |   |-- LongT2IBench-checkpoints
 |   |   |-- config.json
 |   |   |-- ...
+|   |-- Qwen2.5-VL-7B-Instruct
+|   |   |-- config.json
+|   |   |-- ...
 |-- data/
 |   |-- imgs
 |   |-- split
@@ -97,6 +103,7 @@ LongT2IBench/
 |-- README.md
 |-- test_generation.py
 |-- test_score.py
+|-- train.py
 ```
 
 ### 3. Run Inference
@@ -119,9 +126,9 @@ python test_generation.py
 
 You can run this code to train <strong>[LongT2IExpert]</strong> from start to finish. 
 
-First, make sure the initially untrained weights are located at 
+Make sure the initially untrained weights are located at ``./weights/Qwen2.5-VL-7B-Instruct`` :
 
-- ``./weights/Qwen2.5-VL-7B-Instruct`` ：You can download the untrained weights from the following link [**(Baidu Netdisk)**](https://pan.baidu.com/s/17PcO4CvgB6FDHh6JBgM_Lg?pwd=3h8m)
+You can download the untrained weights from the following link [**(Baidu Netdisk)**](https://pan.baidu.com/s/17PcO4CvgB6FDHh6JBgM_Lg?pwd=3h8m)
 
 ```bash
 python train.py
