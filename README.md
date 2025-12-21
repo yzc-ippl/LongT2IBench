@@ -72,7 +72,7 @@ Create the `weights` directory if it doesn't exist and place the files inside.
 
 ##### Prepare Datasets
 
-You can download the dataset of <strong>[LongPrompt-3K]</strong> and <strong>[LongT2IBench-14K]</strong> from the following link: [**(Baidu Netdisk)**](https://pan.baidu.com/s/1Ln0eIJABmBxzqa-bDm-DOw?pwd=j6p6)
+You can download the dataset of <strong>[LongPrompt-3K]</strong> and <strong>[LongT2IBench-14K]</strong> from the following link: [**(Baidu Netdisk)**](https://pan.baidu.com/s/1uNMzLd1HKEQCaTgJQm8lpg?pwd=igq2)
 
 Place the downloaded files in the `data` directory.
 
@@ -113,6 +113,18 @@ python test_score.py
 
 ```
 python test_generation.py
+```
+
+### 4. Run Training
+
+You can run this code to train <strong>[LongT2IExpert]</strong> from start to finish. 
+
+First, make sure the initially untrained weights are located at 
+
+- ``./weights/Qwen2.5-VL-7B-Instruct`` ：You can download the untrained weights from the following link [**(Baidu Netdisk)**](https://pan.baidu.com/s/17PcO4CvgB6FDHh6JBgM_Lg?pwd=3h8m)
+
+```bash
+python train.py
 ```
 
 ## Citation
