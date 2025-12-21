@@ -146,10 +146,10 @@ def load_model_safely():
             torch_dtype=torch_dtype,
             trust_remote_code=True,
         )
-        print("✅ Model loaded successfully")
+        print("Model loaded successfully")
         
     except Exception as e:
-        print(f"❌ Failed to load model: {e}")
+        print(f"Failed to load model: {e}")
         model = Qwen2VLForConditionalGeneration.from_pretrained(
             config.model_name,
             device_map="auto",
@@ -168,9 +168,9 @@ def load_model_safely():
         try:
             model.resize_token_embeddings(len(processor.tokenizer))
             new_vocab_size = model.get_input_embeddings().weight.shape[0]
-            print(f"✅ Resized embeddings to: {new_vocab_size}")
+            print(f"Resized embeddings to: {new_vocab_size}")
         except Exception as e:
-            print(f"⚠️ Error resizing embeddings: {e}")
+            print(f"Error resizing embeddings: {e}")
             model = resize_embeddings_manually(model, len(processor.tokenizer))
     
     return model, processor, level_id
@@ -206,11 +206,11 @@ def resize_embeddings_manually(model, new_vocab_size):
             
             model.lm_head = new_lm_head
         
-        print(f"✅ Manually resized embeddings: {old_vocab_size} -> {new_vocab_size}")
+        print(f"Manually resized embeddings: {old_vocab_size} -> {new_vocab_size}")
         return model
         
     except Exception as e:
-        print(f"❌ Failed to manually resize embeddings: {e}")
+        print(f"Failed to manually resize embeddings: {e}")
         return model
 
 
@@ -449,18 +449,18 @@ def save_model_safely(model, processor, score_head, save_dir: str):
         with open(Path(save_dir) / "training_config.json", 'w') as f:
             json.dump(config_dict, f, indent=2)
             
-        print(f"✅ Model saved successfully to {save_dir}")
+        print(f"Model saved successfully to {save_dir}")
         
     except Exception as e:
-        print(f"❌ Error saving model: {e}")
+        print(f"Error saving model: {e}")
         backup_dir = save_dir + "_backup"
         try:
             os.makedirs(backup_dir, exist_ok=True)
             torch.save(model.state_dict(), Path(backup_dir) / "model_state.pt")
             torch.save(score_head.state_dict(), Path(backup_dir) / "score_head.pt")
-            print(f"⚠️ Saved backup to {backup_dir}")
+            print(f"Saved backup to {backup_dir}")
         except Exception as backup_e:
-            print(f"❌ Backup save also failed: {backup_e}")
+            print(f"Backup save also failed: {backup_e}")
 
 def load_checkpoint_safely(checkpoint_path):
     if not checkpoint_path or not os.path.exists(checkpoint_path):
@@ -469,10 +469,10 @@ def load_checkpoint_safely(checkpoint_path):
         
     try:
         checkpoint = torch.load(checkpoint_path, map_location=device)
-        print(f"✅ Checkpoint loaded from {checkpoint_path}")
+        print(f"Checkpoint loaded from {checkpoint_path}")
         return checkpoint
     except Exception as e:
-        print(f"❌ Error loading checkpoint: {e}")
+        print(f"Error loading checkpoint: {e}")
         return None
 
 
