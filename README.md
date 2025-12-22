@@ -75,7 +75,7 @@ Create the `weights` directory if it doesn't exist and place the files inside.
 
 ##### Prepare Datasets
 
-You can download the dataset of <strong>[LongPrompt-3K]</strong> and <strong>[LongT2IBench-14K]</strong> from the following link: [**(Baidu Netdisk)**](https://pan.baidu.com/s/1uNMzLd1HKEQCaTgJQm8lpg?pwd=igq2)
+You can download the dataset of <strong>[LongPrompt-3K]</strong> and <strong>[LongT2IBench-14K]</strong> from the following link: [**(Baidu Netdisk)**](https://pan.baidu.com/s/1M_tE9EfA2s0Vn7l9r0GebA?pwd=7b6d)
 
 Place the downloaded files in the `data` directory.
 
