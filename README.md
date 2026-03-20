@@ -128,8 +128,6 @@ You can run this code to train <strong>[LongT2IExpert]</strong> from start to fi
 
 Make sure the initially untrained weights are located at ``./weights/Qwen2.5-VL-7B-Instruct`` :
 
-You can download the untrained weights from the following link [**(Baidu Netdisk)**](https://pan.baidu.com/s/17PcO4CvgB6FDHh6JBgM_Lg?pwd=3h8m)
-
 ```bash
 python train.py
 ```
