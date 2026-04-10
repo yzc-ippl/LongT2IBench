@@ -42,7 +42,7 @@
             <strong>[2025-12-09]</strong> The data and pre-trained models have been released.
         </li>
         <li style="margin-bottom: 0.8em;">
-            <strong>[2025-11-08]</strong> Our paper, "LongT2IBench: A Benchmark for Evaluating Long Text-to-Image Generation with Graph-structured Annotations", has been accepted for an oral presentation at AAAI 2026!
+            <strong>[2025-11-08]</strong> Our paper, "LongT2IBench: A Benchmark for Evaluating Long Text-to-Image Generation with Graph-structured Annotations", has been accepted for an <strong>Oral presentation</strong> at AAAI 2026!
         </li>
     </ul>
 </div>
