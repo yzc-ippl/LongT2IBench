@@ -137,13 +137,13 @@ python train.py
 If you find this work is useful, pleaes cite our paper!
 
 ```bibtex
-@misc{yang2025longt2ibenchbenchmarkevaluatinglong,
-      title={LongT2IBench: A Benchmark for Evaluating Long Text-to-Image Generation with Graph-structured Annotations}, 
-      author={Zhichao Yang and Tianjiao Gu and Jianjie Wang and Feiyu Lin and Xiangfei Sheng and Pengfei Chen and Leida Li},
-      year={2025},
-      eprint={2512.09271},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2512.09271}, 
+@inproceedings{yang2026longt2ibench,
+  title={Longt2ibench: A benchmark for evaluating long text-to-image generation with graph-structured annotations},
+  author={Yang, Zhichao and Gu, Tianjiao and Wang, Jianjie and Lin, Feiyu and Sheng, Xiangfei and Chen, Pengfei and Li, Leida},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={40},
+  number={14},
+  pages={11820--11828},
+  year={2026}
 }
 ```
